@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:Configuration hierarchy="calhr" description="California State Holidays"
                    xmlns:tns="http://www.example.org/Holiday" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://www.example.org/Holiday /Holiday.xsd">
+                   xsi:schemaLocation="http://www.example.org/Holiday ../../../main/xsd/Holiday.xsd">
     <tns:Holidays>
         <tns:Fixed month="JANUARY" day="1" descriptionPropertiesKey="New Year’s Day">
             <tns:MovingCondition substitute="SUNDAY" with="NEXT" weekday="MONDAY" />
@@ -15,7 +15,7 @@
         <tns:Fixed month="JULY" day="4" validFrom="1776" descriptionPropertiesKey="Independence Day">
             <tns:MovingCondition substitute="SUNDAY" with="NEXT" weekday="MONDAY" />
         </tns:Fixed>
-        <tns:Fixed month="NOVEMBER" day="11" validFrom="1938" descriptionPropertiesKey="Veterans Day">
+        <tns:Fixed month="NOVEMBER" day="11" validFrom="1938" descriptionPropertiesKey="Veteran's Day">
             <tns:MovingCondition substitute="SATURDAY" with="PREVIOUS" weekday="FRIDAY" />
             <tns:MovingCondition substitute="SUNDAY" with="NEXT" weekday="MONDAY" />
         </tns:Fixed>
